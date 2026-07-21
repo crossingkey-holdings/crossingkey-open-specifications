@@ -2,10 +2,12 @@
 
 Public-facing conventions and carefully scoped specifications from CrossingKey.
 
-## Purpose
+## Versioning
 
-This repository publishes interface-level guidance where openness improves clarity and interoperability without exposing private implementation, proprietary logic, or security-sensitive design.
+Specifications use **MAJOR.MINOR**. A major version changes a normative requirement incompatibly; a minor version adds a backward-compatible clarification or addition. Every specification distinguishes normative requirements from informative examples.
 
-## Standard
+## Publication boundary
 
-Specifications use stable terminology, explicit versioning, examples that do not reveal production data, and clear statements of what is normative versus informative.
+Open specifications may describe intended interfaces, data shapes, terminology, or exchange conventions where openness improves interoperability. They never disclose credentials, production endpoints, private source, customer information, exploit-relevant implementation detail, or security-sensitive operating material.
+
+A specification does not itself grant rights to proprietary software, trademarks, or private operational materials.
